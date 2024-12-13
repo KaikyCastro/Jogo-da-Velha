@@ -16,8 +16,4 @@ class JogadorIA(Jogador):
                 if self.matriz[l][c] == Tabuleiro.DESCONHECIDO:
                     lista.append((l, c))
                     
-        if(len(lista) > 0):
-            p = randint(0, len(lista)-1)
-            return lista[p]
-        else:
            return None
